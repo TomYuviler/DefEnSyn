@@ -131,8 +131,8 @@ Run tests with `python -m pip install ".[test]"` followed by `python -m pytest`.
 @inproceedings{yuviler2026defensyn,
   title     = {Enhancing Neural Network Robustness via Synthesis of Repair Programs},
   author    = {Yuviler, Tom and Drachsler-Cohen, Dana},
-  booktitle = {Static Analysis -- SAS 2025},
-  year      = {2026},
+  booktitle = {SAS 2025},
+  year      = {2021},
   pages     = {221--248},
   doi       = {10.1007/978-3-032-07106-4_10}
 }
