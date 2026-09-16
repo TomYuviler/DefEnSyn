@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "defensyn"
+version = "0.2.0"
+description = "Neural network defense through synthesis of feature repair programs"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Tom Yuviler"},
+  {name = "Dana Drachsler-Cohen"},
+]
+dependencies = ["numpy>=1.26,<3", "torch>=2.4,<3"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.urls]
+Paper = "https://doi.org/10.1007/978-3-032-07106-4_10"
+Repository = "https://github.com/TomYuviler/Few-Pixel-Attack"
+
+[tool.setuptools]
+py-modules = ["defensyn"]
+
+[tool.pytest.ini_options]
+testpaths = ["test_defensyn.py"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use DefEnSyn, please cite the accompanying paper."
+title: "DefEnSyn: Neural Network Robustness via Synthesis of Repair Programs"
+type: software
+authors:
+  - family-names: Yuviler
+    given-names: Tom
+    orcid: "https://orcid.org/0009-0008-7952-8292"
+  - family-names: Drachsler-Cohen
+    given-names: Dana
+    orcid: "https://orcid.org/0000-0001-6644-5377"
+repository-code: "https://github.com/TomYuviler/Few-Pixel-Attack"
+preferred-citation:
+  type: conference-paper
+  title: "Enhancing Neural Network Robustness via Synthesis of Repair Programs"
+  authors:
+    - family-names: Yuviler
+      given-names: Tom
+    - family-names: Drachsler-Cohen
+      given-names: Dana
+  collection-title: "Static Analysis – 32nd International Symposium, SAS 2025, Proceedings"
+  year: 2026
+  volume: "16100"
+  start: "221"
+  end: "248"
+  doi: "10.1007/978-3-032-07106-4_10"
